@@ -2,7 +2,6 @@
 #include <iostream>
 
 #pragma comment(lib, "../Debug/lib2.lib")
-#pragma comment(lib, "../Debug/lib1.lib")
 
 using namespace std;
 
