@@ -1,12 +1,13 @@
 #include "../lib2/lib2.h"
+#include "../lib1/lib1.h"
 #include <iostream>
-
-#pragma comment(lib, "../Debug/lib2.lib")
 
 using namespace std;
 
+#pragma comment(lib, "../Debug/lib2.lib")
+#pragma comment(lib, "../Debug/lib1.lib")
 int main()
 {
-    cout << add(1, 2) << endl;
     cout << add("niel ", "lov") << endl;
+    cout << append("niel ", "lov") << endl;
 }

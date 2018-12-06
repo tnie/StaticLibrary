@@ -1,7 +1,7 @@
 #include "lib2.h"
 #include "../lib1/lib1.h"
 
-//#pragma comment(lib, "../Debug/lib1.lib")
+//#pragma comment(lib, "./3rd/lib1.lib")    // ÎÞÐ§
 
 std::string add(const std::string& a, const std::string& b)
 {
